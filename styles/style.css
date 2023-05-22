@@ -80,6 +80,8 @@ select {
 
 /* modified css for layout */
 
+html{scroll-behavior:smooth}
+
 .line{
     border-color: orangered;
 }
@@ -94,14 +96,6 @@ select {
     padding: 2em;
     text-align: center;
     place-content: center;
-
-}
-
-section{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(3, 5, 3);
-    margin-top: 5em;
 
 }
 
@@ -322,6 +316,52 @@ footer.div{
 .icon-facebook:hover{
     filter: invert(46%) sepia(57%) saturate(6174%) hue-rotate(357deg) brightness(97%) contrast(112%);
     margin-left: 1em;
+}
+
+/* section1 */
+section{
+    width: auto;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.section1{
+    background-color: antiquewhite;
+    width: 70%;
+    margin: auto;
+    border-radius: 4px;
+    
+}
+
+.section1-img{
+    height: 40%;
+    width: 40%;
+    
+    float: right;
+    animation: jelly 10s ease infinite;
+}
+@keyframes jelly {
+    0%, 20%, 50%, 80%, 100% {border-radius: 90%;}
+    40% {border-radius: 30%;}
+    60% {border-radius: 30%;}
+    
+}
+
+.s1-title{
+    font-family: "Red Hat Text", serif;
+    text-align: center;
+    font-size: 3em;
+    
+}
+
+.s1-body{
+    font-family: "Red Hat Text", serif;
+    margin: 0.5em;
+}
+
+.s1-line{
+
 }
 
 /***************************************************************************/
