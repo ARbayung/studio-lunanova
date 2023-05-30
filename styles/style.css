@@ -76,11 +76,12 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+html{scroll-behavior:smooth}
 /******************************************************************************/
 
 /* modified css for layout */
 
-html{scroll-behavior:smooth}
 
 .line{
     border-color: orangered;
@@ -119,6 +120,7 @@ html{scroll-behavior:smooth}
     align-items: center;
     margin-left: 0em;
     margin-right: 4em;
+    position: sticky;
 
 }
 
@@ -332,6 +334,14 @@ section{
     margin: auto;
     border-radius: 4px;
     
+}
+
+.section2{
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin: auto;
+
 }
 
 .section1-img{
